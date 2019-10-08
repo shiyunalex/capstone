@@ -8,5 +8,6 @@ spec:
     storage: 10Gi
   accessModes:
   - ReadWriteOnce
-  hostPath:
-    path: /mnt/data
+  nfs: 
+    path: /mnt/linuxidc/
+    server: 128.110.153.146
